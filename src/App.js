@@ -1,5 +1,6 @@
 import HelloWorld from './HelloWorld';
 import ContactForm from './ContactForm';
+import SubscribeForm from './SubscribeForm';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Bienvenue dans React !</h1>
       <HelloWorld />
       <ContactForm />
+      <SubscribeForm />
     </div>
   );
 }
